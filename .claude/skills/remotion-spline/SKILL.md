@@ -1,3 +1,8 @@
+---
+name: remotion-spline
+description: Smooth spline path animations for Remotion compositions — linear and Catmull-Rom splines with SVG path generation
+---
+
 # Remotion Spline Skill
 
 Use the `remotion-spline` package's standalone spline functions to create smooth path animations in Remotion compositions.
