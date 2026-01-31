@@ -1,0 +1,28 @@
+{
+  "name": "remotion-spline",
+  "version": "1.0.0",
+  "description": "Standalone spline functions for Remotion compositions — linear and Catmull-Rom splines with SVG path generation",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "keywords": ["remotion", "spline", "catmull-rom", "svg", "animation"],
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.8.1",
+    "typescript": "~5.9.3",
+    "vitest": "~4.0.17"
+  }
+}
