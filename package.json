@@ -1,6 +1,6 @@
 {
   "name": "remotion-spline",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Standalone spline functions for Remotion compositions — linear and Catmull-Rom splines with SVG path generation",
   "type": "module",
   "main": "dist/index.js",
@@ -19,6 +19,10 @@
     "format:check": "prettier --check ."
   },
   "keywords": ["remotion", "spline", "catmull-rom", "svg", "animation"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oren-hollander/remotion-spline.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "prettier": "^3.8.1",
