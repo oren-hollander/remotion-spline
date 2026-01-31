@@ -1,0 +1,6 @@
+src/
+.idea/
+.claude/
+.github/
+tsconfig.json
+.prettierrc
