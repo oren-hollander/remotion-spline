@@ -1,6 +1,6 @@
 {
   "name": "remotion-spline",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Standalone spline functions for Remotion compositions — linear and Catmull-Rom splines with SVG path generation",
   "type": "module",
   "main": "dist/index.js",
